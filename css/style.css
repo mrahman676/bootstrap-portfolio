@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:var(--text-bg);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  :root {
+  --text-color:  #452c63cb;
+  --text-bg: cornsilk; 
+  }
+  
+  /* Media Queries */
+  
+  @media screen and (max-width: 735px) {
+  
+    #resize {
+      display: block;
+      text-align: center;
+    }
+  
+    #resize .buttons {
+      padding-left: 6vw;
+    }
+  
+    #about #section-header {
+      font-size: 1rem;
+    }
+  
+    #about p {
+      font-size: 1rem;
+    }
+  
+    #work-link {
+      margin-top: 5vh;
+    }
+    #work-link #section-header {
+      font-size: 1rem;
+    }
+  
+    #contact #section-header {
+      font-size: 1rem;
+    }
+  
+    #contact .contact-buttons {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 657px) {
+  
+    #width {
+      display: none;
+    }
+    }
+    
+  @media screen and (max-width: 587px) {
+  
+      .contact-section .contact-buttons #youtube {
+        display:none;
+      }
+      }
+  
+    @media screen and (max-width: 445px) {
+  
+        .contact-section .contact-buttons #spotify {
+          display:none;
+        }
+        }
+  
+  @media screen and (max-width: 339px) {
+  
+  #img-size { 
+    display: none;
+  }
+  
+  #banner-size {
+    justify-content: center;
+  }
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  
+  /* Header */
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3vh;
+  }
+  
+  .name {
+    padding-left: 3vw;
+    color: var(--text-color);
+    background-color: var(--text-bg);
+    font-size: 2em;
+  }
+  
+  .buttons {
+    list-style: none;
+    padding-right: 3vw;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  
+  .buttons li {
+    display: inline-block;
+    padding: 0vh 1vw;
+  }
+  
+  /* Banner */
+  
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 20vh; 
+    padding-right: 2vw;
+    padding-bottom: 3vh;
+    margin-top: 2vh;
+    background-image: url(./images/Background.jpg);
+    background-size: 100vw 20vh;
+    background-repeat: no-repeat;
+  }
+  
+  .banner h2 {
+    font-size: 1.2rem;
+    background-color: var(--text-bg);
+    color: var(--text-color);
+    box-shadow: 0 0 1rem ;
+    border-radius: 0.1rem;
+  }
+  
+  .banner img {
+    height: 14vh;
+    border: 0.2rem solid var(--text-color);
+    border-radius: 50rem;
+    box-shadow: 0 0 0.5rem ;
+    margin-left: 2vw;
+  }
+  
+  /* Main Section */
+  
+  main {
+    margin-top: 3vh;
+  }
+  
+  #section-header {
+    font-size: 1.7rem;
+    padding-right: 1vw;
+    border-style: none solid none none;
+    color: var(--text-color);
+  }
+  
+  /* About Me */
+  
+  .about-me {
+    display: flex;
+  }
+  
+  .para {
+    display: flex;
+  }
+  
+  .about-me h2 {
+    height: 14vh;
+    width: 20vw;
+    text-align: end;
+  }
+  
+  .about-me p {
+    padding-left: 2.5vw;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    max-width: 33vw;
+  }
+  
+  /* Work Portfolio */
+  
+  .work {
+    display: flex;
+    margin-top: 5vh;
+    }
+  
+  .work-header {
+      height: 62vh;
+      width: 20vw;
+      text-align: end;
+  }
+  
+  .work-grid-style {
+    width: 63vw;
+    margin-left: 2.3vw;
+    height: 62vh;
+    grid-gap: 1rem;
+  }
+  
+  #work-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "project1 project1"
+    "project1 project1"
+    "project2 project3"
+    "project4 project5"
+  }
+  
+  #proj-style {
+    display: flex;
+    align-items: flex-end;
+    border: 0.1rem solid var(--text-color);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem;
+    padding-bottom: 1vh;
+  }
+  
+  .first-project {
+    grid-area: project1;
+    background-image: url(./images/digital-marketing-meeting.jpg);
+  }
+  
+  .second-project {
+    grid-area: project2;
+    background-image: url(./images/Vermin\ Album\ Cover\ Preview.png);
+  }
+  
+  .third-project {
+    grid-area: project3;
+    background-image: url(./images/Direction.jpeg);
+  }
+  
+  .fourth-project {
+    grid-area: project4;
+    background-image: url(./images/New-Normal.JPG);
+  }
+  
+  .fifth-project {
+    grid-area: project5;
+    background-image: url(./images/Three-Lions.PNG);
+  }
+  
+  .first-project:hover, .second-project:hover, .third-project:hover, .fourth-project:hover, .fifth-project:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease;
+  }
+  
+  .PT {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--text-color);
+    height: 3.3vh;
+  }
+  #width {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 248, 220, 0.8);
+  }
+  
+  /* Contact Me */
+  
+  .contact-section {
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+  }
+  
+  .contact-section h2 {
+    height: 10vh;
+    text-align: end;
+    width: 20vw;
+  }
+  
+  .contact-buttons {
+    list-style: none;
+    font-size: 1.3rem;
+    color: var(--text-color);
+    text-decoration: none;
+    padding-left: 1vw;
+  }
+  
+  .contact-buttons li {
+    display: inline-block;
+    text-align: center;
+    padding: 0rem 1.3rem;
+  }
+  
+  /* Footer */
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  .footer p {
+    color: var(--text-color);
+  }
