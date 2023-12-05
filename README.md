@@ -1,5 +1,5 @@
 
-# Using HTML, CSS & Bootstrap to re-design a my work portfolio  web page.
+# Using HTML, CSS & Bootstrap to re-design my work portfolio  web page.
 
 ## Created to re-create my portfolio webpage using bootstrap to make page structure, css styling and web responsivity better.
 
