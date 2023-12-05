@@ -56,9 +56,11 @@ body {
 /*Skills*/
 
 #skillLearn {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  max-width: 10vw;
+  gap: 1rem;
 }
+
+
 
 /*About Me / Contact Me*/
 
