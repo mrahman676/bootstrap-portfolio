@@ -1,7 +1,12 @@
-.hero-image {
-  height: 200px;
-  width: 200px;
+body {
+  background-image: url(images/back.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  color:#404040;
 }
+
+
+
 
 .carousel-item {
   height: 10rem;
@@ -13,15 +18,29 @@
 
 /* Jumbo */
 
-.card {
-  margin: 0 0.5em;
+ #home {
+  margin-top: 10vh;
+ }
+
+ .hero-image {
+  height: 300px;
+  width: 300px;
+   margin-top: 5vh;
 }
+
 /*Portfolio*/
 
+#work-section {
+  margin-top: 10vh;
+}
 #workStyle {
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
 }
 
 #secondRow {
   margin-bottom: 10vh;
+}
+
+.card {
+  margin: 0 0.5em;
 }
