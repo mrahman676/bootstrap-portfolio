@@ -38,12 +38,20 @@ body {
   display: flex;
   justify-content: center;
   padding-right: 20vw;
+  height: 60vh;
 }
 
 #carouselExample {
   margin-top: 10vh;
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
+  height: 60vh;
 }
+
+.card {
+  height
+}
+
+
 
 /*Skills*/
 
