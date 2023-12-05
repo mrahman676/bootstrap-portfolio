@@ -30,8 +30,7 @@ body {
 
 /*Portfolio*/
 
-#work-margin {
-
+#work {
   margin-top: 5vh;
 }
 .carousel-inner {
@@ -61,11 +60,16 @@ body {
 }
 
 #shadow {
-  transition: box-shadow 0.3s ease-in-out;
+  transform: scale(1.1);
+  transition: 0.3s ease;
+
 }
 
 #shadow:hover {
-  box-shadow: 0 0 10rem rgba(142, 0, 0, 0.5);
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0, 40, 142, 0.712);
+
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 40, 142, 0.712)
+  );
 }
 
 /*About Me / Contact Me*/
@@ -78,6 +82,7 @@ body {
 #aboutContact {
   padding-top: 10vh;
 }
+
 
 
 
