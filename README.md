@@ -44,8 +44,11 @@ Please check out a preview of the page here:
 ## Credits
 
 For Navbar: https://getbootstrap.com/docs/5.3/components/navbar/
+
 For Carousel: https://getbootstrap.com/docs/5.3/components/carousel/
+
 For Cards: https://getbootstrap.com/docs/5.3/components/card/
+
 For Jumbotron: Edx Front End Class Material
 
 ## License
