@@ -25,22 +25,35 @@ body {
  .hero-image {
   height: 300px;
   width: 300px;
-   margin-top: 5vh;
+  margin-top: 5vh;
 }
 
 /*Portfolio*/
 
-#work-section {
+#work-margin {
+
+  margin-top: 5vh;
+}
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  padding-right: 20vw;
+}
+
+#carouselExample {
   margin-top: 10vh;
-}
-#workStyle {
-  padding-bottom: 5vh;
+  margin-bottom: 20vh;
 }
 
-#secondRow {
-  margin-bottom: 10vh;
+/*Skills*/
+
+#skillLearn {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  display: flex;
+  justify-content: center;
 }
 
-.card {
-  margin: 0 0.5em;
-}
+
+
+
