@@ -30,8 +30,8 @@ body {
   margin-top: 5vh;
 }
 .carousel-inner {
-  display: flex !important;
-  justify-content: center !important;
+  display: flex;
+  justify-content: center;
   height: 60vh;
 }
 
