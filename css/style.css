@@ -30,9 +30,8 @@ body {
   margin-top: 5vh;
 }
 .carousel-inner {
-  display: flex;
-  justify-content: center;
-  padding-right: 20vw;
+  display: flex !important;
+  justify-content: center !important;
   height: 60vh;
 }
 
@@ -42,27 +41,11 @@ body {
   height: 60vh;
 }
 
-.card {
-  height
-}
-
-
-
 /*Skills*/
 
 #skillLearn {
   max-width: 50vw;
-  gap: 1rem;
 }
-
-.fixed-size {
-  width: 100%; 
-  height: auto;
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
-}
-
 
 #shadow {
   transform: scale(1.1);
@@ -71,9 +54,9 @@ body {
 }
 
 #shadow:hover {
-  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgba(0, 40, 142, 0.712);
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 40, 142, 0.454);
 
-  filter: drop-shadow(0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 40, 142, 0.712)
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem 0.1rem rgba(0, 40, 142, 0.454)
   );
 }
 
