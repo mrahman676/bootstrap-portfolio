@@ -5,10 +5,6 @@ body {
   color:#404040;
 }
 
-.carousel-item {
-  height: 10rem;
-}
-
 
 /* Navbar */
 
@@ -26,20 +22,25 @@ body {
 
 /*Portfolio*/
 
-#work {
-  margin-top: 5vh;
-}
-.carousel-inner {
-  display: flex;
-  justify-content: center;
-  height: 60vh;
-  padding-right: 24vw;
-}
-
-#carouselExample {
+.grid {
+  margin-left: 10vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
   margin-top: 10vh;
   margin-bottom: 10vh;
-  height: 60vh;
+  justify-content: center;
+  
+}
+
+.card {
+  background-color:transparent;
+  text-align: center;
+  border: solid 1px;
+}
+
+#work {
+  margin-top: 5vh;
 }
 
 /*Skills*/
